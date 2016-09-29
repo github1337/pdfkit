@@ -1245,6 +1245,7 @@ KPX E q -9
 KPX E u -8
 KPX E v -13
 KPX E w -11
+KPX E x -13
 KPX E y -13
 KPX E ccedilla -9
 KPX E egrave -9
@@ -1464,6 +1465,7 @@ KPX O V -11
 KPX O X -11
 KPX O Y -21
 KPX O Z -11
+KPX O k -70
 KPX O Agrave -10
 KPX O Aacute -10
 KPX O Acircumflex -10
@@ -1523,6 +1525,7 @@ KPX R T -39
 KPX R V -9
 KPX R Y -23
 KPX R Ydieresis -23
+KPX S t -40
 KPX T comma -106
 KPX T hyphen -113
 KPX T period -106
