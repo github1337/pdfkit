@@ -43,7 +43,7 @@ class AFMFont
           
         when 'CharMetrics'
           continue unless /^CH?\s/.test(line)
-          name = line.match(/\bN\s+(\.?\w+)\s*;/)[1]
+          name = line.match(/\bN\s+(\.?\w+\.?\w*)\s*;/)[1]
           @glyphWidths[name] = +line.match(/\bWX\s+(\d+)\s*;/)[1]
           
         when 'KernPairs'

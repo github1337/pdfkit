@@ -61,5 +61,8 @@ class StandardFont extends PDFFont
     "Times-BoldItalic":      -> fs.readFileSync __dirname + "/../font/data/Times-BoldItalic.afm", 'utf8'
     "Symbol":                -> fs.readFileSync __dirname + "/../font/data/Symbol.afm", 'utf8'
     "ZapfDingbats":          -> fs.readFileSync __dirname + "/../font/data/ZapfDingbats.afm", 'utf8'
-  
+    "Roboto-Light":          -> fs.readFileSync __dirname + "/../font/data/Roboto-Light.afm", 'utf8'
+    "Roboto-Medium":         -> fs.readFileSync __dirname + "/../font/data/Roboto-Medium.afm", 'utf8'
+    "Roboto-Regular":        -> fs.readFileSync __dirname + "/../font/data/Roboto-Regular.afm", 'utf8'
+
 module.exports = StandardFont
